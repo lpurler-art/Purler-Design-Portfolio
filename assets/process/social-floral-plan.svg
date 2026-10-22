@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Exploring the layout</title><desc id="desc">A new not-to-scale hand-sketched conceptual plan exploring rounded islands, work zones, shelving, and circulation.</desc>
+<defs><pattern id="paper" width="37" height="37" patternUnits="userSpaceOnUse"><path d="M3 9l1 .4M22 31l1.2-.3M31 8l.8.5M11 25l.7-.4" stroke="#96979c" stroke-width=".7" opacity=".28"/></pattern><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2" seed="8"/><feColorMatrix values=".25 0 0 0 .7 .25 0 0 0 .7 .25 0 0 0 .7 0 0 0 .10 0"/></filter></defs>
+<rect width="900" height="500" fill="#efede9"/><rect width="900" height="500" fill="url(#paper)"/>
+<g fill="none" stroke="#303137" stroke-linecap="round" stroke-linejoin="round">
+ <!-- plan boundary, double-drawn -->
+ <path stroke-width="3" d="M129 99q-18 2-18 21v276q2 19 20 20h635q19-2 20-20V119q-2-19-20-20zM135 106l627-1q14 2 15 15v268q-2 17-16 19H133q-14-2-15-17V119q1-11 17-13z"/>
+ <!-- arched window wall symbol -->
+ <path stroke-width="2.3" d="M173 102v52q2 20 27 20q24-2 25-21v-51M281 102v52q1 20 26 20q25-1 26-21v-51M390 101v53q1 20 26 20q25-2 26-21v-52M499 101v52q2 21 27 21q24-1 25-21v-52M609 101v52q1 20 25 20q26-2 27-21v-51"/>
+ <!-- counters and rounded islands -->
+ <path stroke-width="2.8" d="M311 210q4-23 61-24q58 1 63 25v67q-6 23-62 24q-57-1-62-24zM308 211q8-20 64-21q53 2 62 21M312 222q55 15 121 0M326 280v16M417 280v-15"/>
+ <path stroke-width="2.8" d="M473 320q6-28 77-29q71 2 78 30v78q-8 28-79 29q-71-1-77-29zM470 322q8-26 80-27q68 1 78 28M474 337q77 18 153 0M492 397v17M608 397v-17"/>
+ <path stroke-width="2.5" d="M146 292q5-22 47-23q45 2 50 24v49q-5 22-49 23q-45-1-49-23zM143 293q7-20 50-20q43 1 50 21M148 305q45 14 94 0"/>
+ <!-- perimeter work/shelf zones -->
+ <path stroke-width="2" d="M141 202h96v50h-96zM144 205h90v43h-90M662 202h97v51h-97zM665 205h90v43h-90M663 286h96v43h-96zM666 289h90v43h-90M145 372h111v26H145zM148 375h105v19H148"/>
+ <!-- circulation arrows, construction and axes -->
+ <g stroke="#96979c" stroke-width="1.5" stroke-dasharray="7 6" opacity=".8"><path d="M245 247q27 31 38 76M431 253q31 14 35 45M638 257q-23 30-27 52M264 368q93-43 196-20M638 372q-21-9-48-17"/><path d="M128 180H768M126 355H770M450 174v244"/></g>
+ <!-- plants and tiny work tables -->
+ <g stroke-width="1.5"><path d="M251 177v-19m0 11q-12-14-21-4q8 12 21 9m0-8q12-14 22-4q-8 12-22 9M647 176v-21m0 12q-14-14-24-4q9 12 24 9m0-9q13-13 23-3q-8 12-23 9M733 355v-19m0 10q-12-12-21-3q8 11 21 8m0-8q12-13 21-3q-7 11-21 8"/></g>
+ <g stroke-width="1" opacity=".68"><path d="M307 214q8-23 64-24q55 1 64 24M472 324q8-29 78-30q70 1 80 30M144 295q7-23 49-23q44 2 50 24M130 100q-22 2-22 21v277q2 21 22 21"/></g>
+</g>
+<g fill="#303137" font-family="cursive" font-style="italic" font-size="17"><text x="39" y="70" transform="rotate(-3 39 70)">layout / circulation study</text><text x="44" y="445" transform="rotate(-2 44 445)">open route around display islands</text><text x="640" y="452" transform="rotate(2 640 452)">not measured</text></g>
+<g fill="none" stroke="#6989ff" stroke-width="1.5" stroke-linecap="round"><path d="M277 74q-9 17-6 35M276 109l-7-8m7 8 8-8"/></g>
+<path d="M0 0h900v500H0z" filter="url(#grain)" opacity=".10"/>
+</svg>

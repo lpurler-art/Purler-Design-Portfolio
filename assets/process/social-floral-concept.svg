@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Starting sketch and concept development</title><desc id="desc">A new conceptual architectural sketch of a future floral shop with arched windows, shelving, plants, and rounded islands.</desc>
+<defs>
+ <pattern id="paper" width="37" height="37" patternUnits="userSpaceOnUse"><path d="M3 9l1 .4M22 31l1.2-.3M31 8l.8.5M11 25l.7-.4" stroke="#96979c" stroke-width=".7" opacity=".28"/></pattern>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2" seed="8"/><feColorMatrix values=".25 0 0 0 .7 .25 0 0 0 .7 .25 0 0 0 .7 0 0 0 .10 0"/></filter>
+</defs>
+<rect width="900" height="500" fill="#efede9"/><rect width="900" height="500" fill="url(#paper)"/>
+<g fill="none" stroke="#303137" stroke-linecap="round" stroke-linejoin="round">
+ <!-- loose perspective scaffolding -->
+ <g stroke="#96979c" stroke-width="1.2" opacity=".55" stroke-dasharray="7 6"><path d="M80 409L450 185 827 407M120 438L451 208 790 440M450 89V447M84 152L818 152"/><path d="M94 373L810 373M145 119L772 119"/></g>
+ <!-- back wall and hand-doubled arches -->
+ <path stroke-width="3" d="M117 384V182Q120 72 226 69Q333 72 337 182V379M125 383V183Q129 80 226 77Q326 81 330 183V376"/>
+ <path stroke-width="3.2" d="M369 374V168Q371 58 482 56Q593 58 597 168V378M378 374V169Q383 67 482 64Q586 67 589 169V376"/>
+ <path stroke-width="2.8" d="M626 379V193Q629 94 724 92Q814 94 817 193V400M635 379V194Q639 101 724 99Q806 102 808 194V394"/>
+ <path stroke-width="1.5" opacity=".8" d="M116 387L338 382M369 379L598 382M626 385L818 403M106 392L832 416"/>
+ <!-- shelving -->
+ <path stroke-width="2" d="M143 210L306 209M140 252L307 249M141 295L308 292M151 176V336M298 174V333M664 220L784 221M662 260L790 260M664 300L793 301M672 190V341M783 191V346"/>
+ <!-- plants -->
+ <g stroke-width="1.6"><path d="M180 209q-20-26-7-38q22 10 15 37q2-29 23-31q8 23-22 34M259 247q-22-24-9-39q20 12 17 36q0-27 23-30q7 20-23 34M704 219q-20-26-7-39q22 10 16 38q3-28 24-30q8 23-22 34M744 259q-17-24-4-37q19 10 13 35q5-26 24-26q6 20-22 31"/></g>
+ <!-- rounded work islands -->
+ <path stroke-width="2.7" d="M200 348q8-32 91-34q88 2 99 34v45q-10 31-96 32q-86-1-94-33zM198 349q9-28 93-29q84 2 97 31M202 359q82 24 184 0M215 394v25M376 394v-26"/>
+ <path stroke-width="2.8" d="M399 321q14-42 104-44q94 2 108 44v62q-12 34-107 36q-94-1-105-36zM398 322q13-38 105-39q91 1 106 39M403 337q100 28 205 0M419 382v39M589 382v-39"/>
+ <path stroke-width="2.4" d="M664 367q9-27 70-29q68 2 77 29v38q-10 29-74 30q-64-2-73-29zM662 368q11-25 72-26q62 1 77 27M667 379q71 20 142 0"/>
+ <!-- florals on counters -->
+ <g stroke-width="1.4"><path d="M278 308v-25m0 12q-14-14-23-4q9 13 23 10m0-11q14-16 24-5q-9 15-24 12M474 278v-25m0 13q-15-17-26-6q11 14 26 12m0-10q15-17 27-5q-9 15-27 11M531 276v-18m0 10q-12-13-21-4q8 12 21 9m0-8q12-14 22-4q-8 12-22 10M710 336v-22m0 12q-13-14-23-4q9 12 23 9m0-9q14-14 23-4q-8 13-23 9"/></g>
+ <!-- loose duplicate strokes -->
+ <g stroke-width="1" opacity=".66"><path d="M119 185Q125 69 229 72M371 170Q379 56 484 59M628 195Q634 91 727 95M205 352q12-33 88-32q80 1 96 31M402 324q16-42 102-41q92 0 109 40M665 370q12-28 70-29q63 0 76 28M140 257l166-3M665 264l124 2"/></g>
+</g>
+<g fill="#303137" font-family="cursive" font-style="italic" font-size="17"><text x="42" y="66" transform="rotate(-4 42 66)">open, social shop</text></g>
+<g fill="none" stroke="#fa5260" stroke-width="1.6" stroke-linecap="round"><path d="M220 48q34-8 73 1M274 53l17 13"/></g>
+<g fill="#303137" font-family="cursive" font-style="italic" font-size="16"><text x="667" y="62" transform="rotate(3 667 62)">light + greenery</text><text x="40" y="459" transform="rotate(-2 40 459)">loose perspective study / not to scale</text></g>
+<path d="M0 0h900v500H0z" filter="url(#grain)" opacity=".10"/>
+</svg>

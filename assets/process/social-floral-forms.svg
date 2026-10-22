@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Refining the design</title><desc id="desc">A new conceptual architectural perspective sketch exploring arched glazing, rounded flower workstations, shelving, and plants.</desc>
+<defs><pattern id="paper" width="37" height="37" patternUnits="userSpaceOnUse"><path d="M3 9l1 .4M22 31l1.2-.3M31 8l.8.5M11 25l.7-.4" stroke="#96979c" stroke-width=".7" opacity=".28"/></pattern><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2" seed="8"/><feColorMatrix values=".25 0 0 0 .7 .25 0 0 0 .7 .25 0 0 0 .7 0 0 0 .10 0"/></filter></defs>
+<rect width="900" height="500" fill="#efede9"/><rect width="900" height="500" fill="url(#paper)"/>
+<g fill="none" stroke="#303137" stroke-linecap="round" stroke-linejoin="round">
+ <!-- perspective guides -->
+ <g stroke="#96979c" stroke-width="1.3" opacity=".58" stroke-dasharray="6 6"><path d="M71 407L450 180 833 408M99 431L450 211 806 435M450 72V443M94 347L810 347"/></g>
+ <!-- focal arch and side window -->
+ <path stroke-width="3.4" d="M279 380V184Q282 61 444 58Q605 61 609 184V379M289 380V185Q293 71 444 68Q596 70 599 185V377"/>
+ <path stroke-width="2.4" d="M635 381V226Q637 127 735 125Q824 127 827 226V405M644 381V227Q648 135 735 133Q816 136 818 227V400"/>
+ <path stroke-width="2" d="M284 196h321M640 238h181M444 66v311M735 133v265M292 386L611 384M642 389L827 408"/>
+ <!-- shelving with jars and plants -->
+ <path stroke-width="2.2" d="M323 228h103M321 265h107M323 301h104M332 208v110M417 207v111M678 256h115M678 291h115M685 237v72M785 237v72"/>
+ <g stroke-width="1.4"><path d="M350 226v-18q0-7 7-7t7 7v18m17 0v-13q0-6 6-6t6 6v13M697 255v-14q0-7 7-7t7 7v14m19 0v-11q0-7 6-7t6 7v11M364 264v-15q0-7 8-7t8 7v15"/><path d="M387 224q-18-21-7-32q19 8 14 32q3-22 20-24q8 18-19 28M730 235q-14-21-3-30q18 9 13 29q3-19 20-22q7 17-18 26"/></g>
+ <!-- rounded flower work islands, varied height -->
+ <path stroke-width="2.8" d="M173 347q9-33 87-34q78 2 88 34v45q-10 31-89 32q-78-1-86-33zM171 349q11-30 89-31q73 1 86 31M176 360q77 24 166 0M191 393v25M329 393v-30"/>
+ <path stroke-width="3" d="M426 321q13-41 104-43q94 2 108 43v64q-13 35-107 37q-93-2-105-37zM423 322q14-37 107-38q90 1 105 39M428 337q98 28 203 0M444 383v41M612 383v-40"/>
+ <path stroke-width="2.5" d="M669 363q8-26 66-27q62 1 70 28v39q-8 28-68 29q-60-1-68-29zM667 365q10-24 68-25q58 1 70 26M672 377q64 20 131 0"/>
+ <!-- bouquets / leaf marks -->
+ <g stroke-width="1.5"><path d="M230 310v-28m0 17q-18-17-28-5q8 15 28 12m0-12q15-18 28-7q-7 16-28 14M484 278v-31m0 17q-19-18-30-5q10 16 30 13m0-13q18-19 31-6q-10 17-31 14M535 278v-24m0 14q-14-14-24-4q8 13 24 10m0-10q14-15 25-5q-8 14-25 11M706 335v-24m0 14q-14-14-25-4q8 12 25 10m0-10q14-14 25-4q-8 12-25 10"/></g>
+ <!-- loose pencil echoes and furniture detail -->
+ <g stroke-width="1" opacity=".68"><path d="M280 188Q285 63 446 63Q594 65 603 187M171 351q12-35 88-35q73 2 91 34M426 324q14-43 104-44q92 2 111 43M670 366q10-29 66-30q60 2 72 29M324 270h104M680 296h113M438 388q83 15 176-3"/></g>
+</g>
+<g fill="#303137" font-family="cursive" font-style="italic" font-size="17"><text x="35" y="72" transform="rotate(-3 35 72)">arched light / layered greens</text><text x="656" y="92" transform="rotate(3 656 92)">display + work</text><text x="43" y="457" transform="rotate(-2 43 457)">new conceptual study · not a historical stage</text></g>
+<g fill="none" stroke="#fa5260" stroke-width="1.6" stroke-linecap="round"><path d="M621 101q-25 11-38 30M585 130l2-10m-2 10 11-3"/><path d="M238 80q27-9 52-2"/></g>
+<path d="M0 0h900v500H0z" filter="url(#grain)" opacity=".10"/>
+</svg>
